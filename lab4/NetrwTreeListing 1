@@ -1,0 +1,7 @@
+../
+lab4/
+| cmake_build_debug/
+| main.cpp
+| CMakeLists.txt
+| compile_commands.json
+| .main.cpp.swp
