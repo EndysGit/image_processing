@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.10.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1
+CMAKE_SOURCE_DIR = /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1/cmake_build_debug
+CMAKE_BINARY_DIR = /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1/cmake_build_debug/CMakeFiles /Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1/cmake_build_debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug/CMakeFiles /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1/cmake_build_debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named opencv_test1
+# Target rules for targets named noise
 
 # Build rule for target.
-opencv_test1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 opencv_test1
-.PHONY : opencv_test1
+noise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 noise
+.PHONY : noise
 
 # fast build rule for target.
-opencv_test1/fast:
-	$(MAKE) -f CMakeFiles/opencv_test1.dir/build.make CMakeFiles/opencv_test1.dir/build
-.PHONY : opencv_test1/fast
+noise/fast:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/build
+.PHONY : noise/fast
+
+FastNoise.o: FastNoise.cpp.o
+
+.PHONY : FastNoise.o
+
+# target to build an object file
+FastNoise.cpp.o:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/FastNoise.cpp.o
+.PHONY : FastNoise.cpp.o
+
+FastNoise.i: FastNoise.cpp.i
+
+.PHONY : FastNoise.i
+
+# target to preprocess a source file
+FastNoise.cpp.i:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/FastNoise.cpp.i
+.PHONY : FastNoise.cpp.i
+
+FastNoise.s: FastNoise.cpp.s
+
+.PHONY : FastNoise.s
+
+# target to generate assembly for a file
+FastNoise.cpp.s:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/FastNoise.cpp.s
+.PHONY : FastNoise.cpp.s
 
 main.o: main.cpp.o
 
@@ -129,7 +156,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/opencv_test1.dir/build.make CMakeFiles/opencv_test1.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/opencv_test1.dir/build.make CMakeFiles/opencv_test1.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/opencv_test1.dir/build.make CMakeFiles/opencv_test1.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +185,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... opencv_test1"
+	@echo "... noise"
+	@echo "... FastNoise.o"
+	@echo "... FastNoise.i"
+	@echo "... FastNoise.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

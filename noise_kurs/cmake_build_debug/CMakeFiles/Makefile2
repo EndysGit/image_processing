@@ -54,45 +54,45 @@ RM = /usr/local/Cellar/cmake/3.10.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1
+CMAKE_SOURCE_DIR = /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1/cmake_build_debug
+CMAKE_BINARY_DIR = /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/opencv_test1.dir
+# Target rules for target CMakeFiles/noise.dir
 
 # All Build rule for target.
-CMakeFiles/opencv_test1.dir/all:
-	$(MAKE) -f CMakeFiles/opencv_test1.dir/build.make CMakeFiles/opencv_test1.dir/depend
-	$(MAKE) -f CMakeFiles/opencv_test1.dir/build.make CMakeFiles/opencv_test1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1/cmake_build_debug/CMakeFiles --progress-num=1,2 "Built target opencv_test1"
-.PHONY : CMakeFiles/opencv_test1.dir/all
+CMakeFiles/noise.dir/all:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/depend
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug/CMakeFiles --progress-num=1,2,3 "Built target noise"
+.PHONY : CMakeFiles/noise.dir/all
 
 # Include target in all.
-all: CMakeFiles/opencv_test1.dir/all
+all: CMakeFiles/noise.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/opencv_test1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1/cmake_build_debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/opencv_test1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1/cmake_build_debug/CMakeFiles 0
-.PHONY : CMakeFiles/opencv_test1.dir/rule
+CMakeFiles/noise.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/noise.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug/CMakeFiles 0
+.PHONY : CMakeFiles/noise.dir/rule
 
 # Convenience name for target.
-opencv_test1: CMakeFiles/opencv_test1.dir/rule
+noise: CMakeFiles/noise.dir/rule
 
-.PHONY : opencv_test1
-
-# clean rule for target.
-CMakeFiles/opencv_test1.dir/clean:
-	$(MAKE) -f CMakeFiles/opencv_test1.dir/build.make CMakeFiles/opencv_test1.dir/clean
-.PHONY : CMakeFiles/opencv_test1.dir/clean
+.PHONY : noise
 
 # clean rule for target.
-clean: CMakeFiles/opencv_test1.dir/clean
+CMakeFiles/noise.dir/clean:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/clean
+.PHONY : CMakeFiles/noise.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/noise.dir/clean
 
 .PHONY : clean
 

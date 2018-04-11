@@ -1,3 +1,0 @@
-/Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1/cmake_build_debug/CMakeFiles/rebuild_cache.dir
-/Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1/cmake_build_debug/CMakeFiles/edit_cache.dir
-/Volumes/Date/ProgrammingProjects/cppFolder/opencv_test1/cmake_build_debug/CMakeFiles/opencv_test1.dir
