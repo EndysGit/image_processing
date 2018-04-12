@@ -11,7 +11,7 @@
 int
 main()
 {
-    constexpr uint16_t range{255}; 
+    constexpr uint8_t range{255}; 
     std::array<double, range> hist;
     hist.fill(0.0000);
 
@@ -48,16 +48,16 @@ main()
                  255, 2, 8, 0);
     }
 
-    double left{hist.at(25)};
-    double right{hist.at(hist.size() - 25)};
+    double left{range * 0.2};
+    double right{range - range * 0.2};
     std::for_each(processed_image.begin<uint8_t>(), 
                   processed_image.end<uint8_t>(),
-                  [left, right](uint8_t &pix)
+                  [left, right, range](uint8_t &pix)
                   { 
-                    double new_left = (static_cast<double>(pix)/static_cast<double>(range) - left) ; 
-                    double new_right = ((new_left <= 0.0000) ? 0 : new_left) * (left + 1.0 - right);
-                    double result = (new_right >= right ? 1 : new_right) * 255;
-                    pix = static_cast<uint8_t>(result);
+                    double new_left = (static_cast<double>(pix) - left); 
+                    double new_right = ((new_left <= 0) ? 0 : new_left) * range/(range - left - (range - right));
+                    double result = (new_right >= range - 1) ? range - 1 : new_right;
+                    pix = static_cast<uint8_t>(std::round(result));
                   }
                  );
 
@@ -84,7 +84,7 @@ main()
     std::cout << "hist max = " << hist_max << '\n';
     std::for_each(hist.begin(), 
                   hist.end(), 
-                  [hist_max, range](double &val) 
+                  [hist_max](double &val) 
                   { 
                     val /= hist_max; 
                   });
@@ -98,6 +98,7 @@ main()
     }
 
     cv::imshow("hist_processed", hist_image);
+
 
     cv::imshow("processed_image", processed_image);
     cv::imshow("image", image);
