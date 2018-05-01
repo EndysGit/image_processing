@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.10.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise
+CMAKE_SOURCE_DIR = /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug
+CMAKE_BINARY_DIR = /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug/CMakeFiles /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,59 +123,59 @@ noise/fast:
 	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/build
 .PHONY : noise/fast
 
-FastNoise.o: FastNoise.cpp.o
+3dparty/FastNoise.o: 3dparty/FastNoise.cpp.o
 
-.PHONY : FastNoise.o
-
-# target to build an object file
-FastNoise.cpp.o:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/FastNoise.cpp.o
-.PHONY : FastNoise.cpp.o
-
-FastNoise.i: FastNoise.cpp.i
-
-.PHONY : FastNoise.i
-
-# target to preprocess a source file
-FastNoise.cpp.i:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/FastNoise.cpp.i
-.PHONY : FastNoise.cpp.i
-
-FastNoise.s: FastNoise.cpp.s
-
-.PHONY : FastNoise.s
-
-# target to generate assembly for a file
-FastNoise.cpp.s:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/FastNoise.cpp.s
-.PHONY : FastNoise.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : 3dparty/FastNoise.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/main.cpp.o
-.PHONY : main.cpp.o
+3dparty/FastNoise.cpp.o:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/FastNoise.cpp.o
+.PHONY : 3dparty/FastNoise.cpp.o
 
-main.i: main.cpp.i
+3dparty/FastNoise.i: 3dparty/FastNoise.cpp.i
 
-.PHONY : main.i
+.PHONY : 3dparty/FastNoise.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/main.cpp.i
-.PHONY : main.cpp.i
+3dparty/FastNoise.cpp.i:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/FastNoise.cpp.i
+.PHONY : 3dparty/FastNoise.cpp.i
 
-main.s: main.cpp.s
+3dparty/FastNoise.s: 3dparty/FastNoise.cpp.s
 
-.PHONY : main.s
+.PHONY : 3dparty/FastNoise.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/main.cpp.s
-.PHONY : main.cpp.s
+3dparty/FastNoise.cpp.s:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/FastNoise.cpp.s
+.PHONY : 3dparty/FastNoise.cpp.s
+
+Window.o: Window.cpp.o
+
+.PHONY : Window.o
+
+# target to build an object file
+Window.cpp.o:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/Window.cpp.o
+.PHONY : Window.cpp.o
+
+Window.i: Window.cpp.i
+
+.PHONY : Window.i
+
+# target to preprocess a source file
+Window.cpp.i:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/Window.cpp.i
+.PHONY : Window.cpp.i
+
+Window.s: Window.cpp.s
+
+.PHONY : Window.s
+
+# target to generate assembly for a file
+Window.cpp.s:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/Window.cpp.s
+.PHONY : Window.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... noise"
-	@echo "... FastNoise.o"
-	@echo "... FastNoise.i"
-	@echo "... FastNoise.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... 3dparty/FastNoise.o"
+	@echo "... 3dparty/FastNoise.i"
+	@echo "... 3dparty/FastNoise.s"
+	@echo "... Window.o"
+	@echo "... Window.i"
+	@echo "... Window.s"
 .PHONY : help
 
 

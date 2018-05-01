@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_FLAGS = -std=c++14  
 
-CXX_DEFINES = 
+CXX_DEFINES = -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__
 
-CXX_INCLUDES = -isystem /usr/local/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -isystem /usr/local/include -isystem /usr/local/include/opencv -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.0 -isystem /usr/local/include/wx-3.0 
 

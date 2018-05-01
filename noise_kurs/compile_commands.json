@@ -1,7 +1,12 @@
 [
 {
-  "directory": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/lab1/cmake_build_debug",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++14   -o CMakeFiles/lab1.dir/main.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/lab1/main.cpp",
-  "file": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/lab1/main.cpp"
+  "directory": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -isystem /usr/local/include -isystem /usr/local/include/opencv -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.0 -isystem /usr/local/include/wx-3.0  -std=c++14   -o CMakeFiles/noise.dir/Window.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/Window.cpp",
+  "file": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/Window.cpp"
+},
+{
+  "directory": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -isystem /usr/local/include -isystem /usr/local/include/opencv -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-3.0 -isystem /usr/local/include/wx-3.0  -std=c++14   -o CMakeFiles/noise.dir/3dparty/FastNoise.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.cpp",
+  "file": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.cpp"
 }
 ]

@@ -6,17 +6,17 @@
 int
 main()
 {
-    constexpr size_t cx_rows{800};
-    constexpr size_t cx_cols{800};
+    constexpr size_t cx_rows{500};
+    constexpr size_t cx_cols{500};
 
     cv::Mat image(cx_rows, cx_cols, CV_8UC3);
 
     for(size_t row{0}; row < cx_rows; ++row)
         for(size_t col{0}; col < cx_cols; ++col)
             for (size_t ch{0}; ch < image.channels(); ++ch)
-                image.at<cv::Vec3b>(row, col) = cv::Vec3b(255 * abs(sin(50*col * row)), 
-                                                          255 * abs(cos(50*row * col)) ,  
-                                                          255 * abs(cos(row*100 + col*100))); 
+                image.at<cv::Vec3b>(row, col) = cv::Vec3b(255 * abs(sin(10000 * row) * cos(10000 * col)), 
+                                                          255 * abs(cos(10000 * col) * sin(10000 * row)),  
+                                                          255 * abs(sin(10000 * col) * sin (10000 * row))); 
 
     cv::cvtColor(image, image, CV_BGR2RGB);
     cv::imshow("Image", image);

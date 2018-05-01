@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/kurs/cmake_build_debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++14   -o CMakeFiles/kurs.dir/main.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/kurs/main.cpp",
+  "file": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/kurs/main.cpp"
+},
+{
+  "directory": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/kurs/cmake_build_debug",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++14   -o CMakeFiles/kurs.dir/3dparty/FastNoise.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/kurs/3dparty/FastNoise.cpp",
+  "file": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/kurs/3dparty/FastNoise.cpp"
+}
+]

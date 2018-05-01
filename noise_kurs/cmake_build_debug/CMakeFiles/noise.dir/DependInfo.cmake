@@ -4,15 +4,26 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/FastNoise.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug/CMakeFiles/noise.dir/FastNoise.cpp.o"
-  "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/main.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise/cmake_build_debug/CMakeFiles/noise.dir/main.cpp.o"
+  "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/noise.dir/3dparty/FastNoise.cpp.o"
+  "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/Window.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/noise.dir/Window.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "WXUSINGDLL"
+  "_FILE_OFFSET_BITS=64"
+  "__WXMAC__"
+  "__WXOSX_COCOA__"
+  "__WXOSX__"
+  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local/include"
   "/usr/local/include/opencv"
+  "/usr/local/lib/wx/include/osx_cocoa-unicode-3.0"
+  "/usr/local/include/wx-3.0"
   )
 
 # Targets to which this target links.
