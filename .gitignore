@@ -1,4 +1,1 @@
-lab1/cmake_build_debug/*
-lab2/cmake_build_debug/*
-lab3/cmake_build_debug/*
-lab4/cmake_build_debug/*
+*/cmake_build_debug/*

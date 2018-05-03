@@ -64,6 +64,7 @@ CMakeFiles/noise.dir/Window.cpp.o
  /usr/local/include/wx-3.0/wx/eventfilter.h
  /usr/local/include/wx-3.0/wx/except.h
  /usr/local/include/wx-3.0/wx/features.h
+ /usr/local/include/wx-3.0/wx/ffile.h
  /usr/local/include/wx-3.0/wx/file.h
  /usr/local/include/wx-3.0/wx/filectrl.h
  /usr/local/include/wx-3.0/wx/filedlg.h
@@ -247,6 +248,7 @@ CMakeFiles/noise.dir/Window.cpp.o
  /usr/local/include/wx-3.0/wx/version.h
  /usr/local/include/wx-3.0/wx/versioninfo.h
  /usr/local/include/wx-3.0/wx/weakref.h
+ /usr/local/include/wx-3.0/wx/wfstream.h
  /usr/local/include/wx-3.0/wx/window.h
  /usr/local/include/wx-3.0/wx/windowid.h
  /usr/local/include/wx-3.0/wx/wx.h

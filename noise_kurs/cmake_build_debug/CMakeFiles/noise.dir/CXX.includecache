@@ -23,6 +23,20 @@ random
 /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/MainFrame.h
 wx/frame.h
 -
+wx/wfstream.h
+-
+wx/choice.h
+-
+wx/filedlg.h
+-
+wx/textctrl.h
+-
+wx/sizer.h
+-
+wx/stattext.h
+-
+wx/flags.h
+-
 wx/msgdlg.h
 -
 wx/log.h
@@ -47,6 +61,10 @@ wx/dcclient.h
 -
 
 /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/Window.cpp
+map
+-
+array
+-
 wx/wxprec.h
 -
 3dparty/FastNoise.h
@@ -881,6 +899,18 @@ wx/defs.h
 /usr/local/include/wx-3.0/wx/wx/defs.h
 
 /usr/local/include/wx-3.0/wx/features.h
+
+/usr/local/include/wx-3.0/wx/ffile.h
+wx/defs.h
+/usr/local/include/wx-3.0/wx/wx/defs.h
+wx/string.h
+/usr/local/include/wx-3.0/wx/wx/string.h
+wx/filefn.h
+/usr/local/include/wx-3.0/wx/wx/filefn.h
+wx/convauto.h
+/usr/local/include/wx-3.0/wx/wx/convauto.h
+stdio.h
+-
 
 /usr/local/include/wx-3.0/wx/file.h
 wx/defs.h
@@ -2691,6 +2721,20 @@ wx/meta/convertible.h
 /usr/local/include/wx-3.0/wx/wx/meta/convertible.h
 wx/meta/int2type.h
 /usr/local/include/wx-3.0/wx/wx/meta/int2type.h
+
+/usr/local/include/wx-3.0/wx/wfstream.h
+wx/defs.h
+/usr/local/include/wx-3.0/wx/wx/defs.h
+wx/object.h
+/usr/local/include/wx-3.0/wx/wx/object.h
+wx/string.h
+/usr/local/include/wx-3.0/wx/wx/string.h
+wx/stream.h
+/usr/local/include/wx-3.0/wx/wx/stream.h
+wx/file.h
+/usr/local/include/wx-3.0/wx/wx/file.h
+wx/ffile.h
+/usr/local/include/wx-3.0/wx/wx/ffile.h
 
 /usr/local/include/wx-3.0/wx/window.h
 wx/event.h
