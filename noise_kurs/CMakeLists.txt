@@ -10,6 +10,10 @@ set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
 include_directories(${OpenCV_INCLUDE_DIRS} )
 include( "${wxWidgets_USE_FILE}" )
 
-set(SOURCE_FILES Window.cpp 3dparty/FastNoise.h 3dparty/FastNoise.cpp)
+set(SOURCE_FILES Window.cpp 
+                 3dparty/FastNoise.h 
+                 3dparty/FastNoise.cpp
+                 3dparty/tinyxml2.h 
+                 3dparty/tinyxml2.cpp)
 add_executable(noise  ${SOURCE_FILES})
 target_link_libraries(noise ${OpenCV_LIBS} ${wxWidgets_LIBRARIES}) 

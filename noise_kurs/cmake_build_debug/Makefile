@@ -150,6 +150,33 @@ noise/fast:
 	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/FastNoise.cpp.s
 .PHONY : 3dparty/FastNoise.cpp.s
 
+3dparty/tinyxml2.o: 3dparty/tinyxml2.cpp.o
+
+.PHONY : 3dparty/tinyxml2.o
+
+# target to build an object file
+3dparty/tinyxml2.cpp.o:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.o
+.PHONY : 3dparty/tinyxml2.cpp.o
+
+3dparty/tinyxml2.i: 3dparty/tinyxml2.cpp.i
+
+.PHONY : 3dparty/tinyxml2.i
+
+# target to preprocess a source file
+3dparty/tinyxml2.cpp.i:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.i
+.PHONY : 3dparty/tinyxml2.cpp.i
+
+3dparty/tinyxml2.s: 3dparty/tinyxml2.cpp.s
+
+.PHONY : 3dparty/tinyxml2.s
+
+# target to generate assembly for a file
+3dparty/tinyxml2.cpp.s:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.s
+.PHONY : 3dparty/tinyxml2.cpp.s
+
 Window.o: Window.cpp.o
 
 .PHONY : Window.o
@@ -189,6 +216,9 @@ help:
 	@echo "... 3dparty/FastNoise.o"
 	@echo "... 3dparty/FastNoise.i"
 	@echo "... 3dparty/FastNoise.s"
+	@echo "... 3dparty/tinyxml2.o"
+	@echo "... 3dparty/tinyxml2.i"
+	@echo "... 3dparty/tinyxml2.s"
 	@echo "... Window.o"
 	@echo "... Window.i"
 	@echo "... Window.s"

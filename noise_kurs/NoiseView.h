@@ -1,5 +1,5 @@
-#ifndef NOISE_NOISEVIEW_HH
-#define NOISE_NOISEVIEW_HH
+#ifndef FASTNOISE_NOISEVIEW_HH
+#define FASTNOISE_NOISEVIEW_HH
 
 #include "3dparty/FastNoise.h"
 #include <wx/panel.h>
@@ -51,4 +51,4 @@ NoieseView::OnPaint(wxPaintEvent &event)
     dc.DrawBitmap(bmp, 0, 0);
 }
 
-#endif //NOISE_NOISEVIEW_HH 
+#endif // FASTNOISE_NOISEVIEW_HH 

@@ -20,6 +20,50 @@ random
 
 /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.h
 
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.cpp
+tinyxml2.h
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.h
+new
+-
+stddef.h
+-
+stdarg.h
+-
+cstddef
+-
+cstdarg
+-
+
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.h
+ctype.h
+-
+limits.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stddef.h
+-
+cctype
+-
+climits
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+stdint.h
+-
+android/log.h
+-
+assert.h
+-
+
 /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/MainFrame.h
 wx/frame.h
 -
@@ -51,6 +95,8 @@ wx/checkbox.h
 -
 NoiseView.h
 /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/NoiseView.h
+XMLFunctions.h
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/XMLFunctions.h
 
 /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/NoiseView.h
 3dparty/FastNoise.h
@@ -75,6 +121,12 @@ NoiseView.h
 /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/NoiseView.h
 wx/wx.h
 -
+
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/XMLFunctions.h
+string
+-
+3dparty/tinyxml2.h
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.h
 
 /usr/local/include/wx-3.0/wx/accel.h
 wx/defs.h

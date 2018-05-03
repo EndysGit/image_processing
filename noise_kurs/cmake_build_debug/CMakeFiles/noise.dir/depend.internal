@@ -4,11 +4,16 @@
 CMakeFiles/noise.dir/3dparty/FastNoise.cpp.o
  /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.cpp
  /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.h
+CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.o
+ /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.cpp
+ /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.h
 CMakeFiles/noise.dir/Window.cpp.o
  /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.h
+ /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.h
  /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/MainFrame.h
  /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/NoiseView.h
  /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/Window.cpp
+ /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/XMLFunctions.h
  /usr/local/include/wx-3.0/wx/accel.h
  /usr/local/include/wx-3.0/wx/access.h
  /usr/local/include/wx-3.0/wx/affinematrix2d.h

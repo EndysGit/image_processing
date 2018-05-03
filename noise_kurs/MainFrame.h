@@ -16,6 +16,7 @@
 #include <wx/button.h>
 #include <wx/checkbox.h>
 #include "NoiseView.h"
+#include "XMLFunctions.h"
 
 enum EFractalSettings
 {
@@ -542,23 +543,76 @@ void MainFrame::OnButtonSave(wxCommandEvent &event)
                             _("Choose name for your file"), 
                             wxEmptyString, 
                             wxEmptyString,
-	                       _("JSON files (*.json) | *.json"),
+	                        ".xml",
 	                        wxFD_SAVE | wxFD_OVERWRITE_PROMPT);
+
     if (SaveDialog.ShowModal() == wxID_CANCEL)
         return;    
 
-    wxFileOutputStream output_stream(SaveDialog.GetPath());
-    if (!output_stream.IsOk())
-    {
-        wxLogError("Cannot save current contents in file '%s'.", SaveDialog.GetPath());
-        return;
-    }
-
+    save_to_xml(std::string(SaveDialog.GetPath().mb_str()), 
+                static_cast<int>(m_noise->GetNoiseType()), 
+                m_noise->GetSeed(), 
+                m_noise->GetFrequency(),
+                static_cast<int>(m_noise->GetInterp()),
+                static_cast<int>(m_noise->GetFractalType()),
+                m_noise->GetFractalOctaves(),
+                m_noise->GetFractalLacunarity(),
+                m_noise->GetFractalGain(),
+                static_cast<int>(m_noise->GetCellularReturnType()),
+                static_cast<int>(m_noise->GetCellularDistanceFunction()));
     
 }
 
 void MainFrame::OnButtonOpen(wxCommandEvent &event)
-{
+{  
+   if (wxMessageBox(_("Current content has not been saved! Proceed?"), _("Please confirm"),
+                     wxICON_QUESTION | wxYES_NO, this) == wxNO )
+       return;
+    
+    wxFileDialog OpenDialog(this, 
+                            _("Open XML file"), "", "",
+                            "XML files (*.xml)|*.xml",
+                            wxFD_OPEN|wxFD_FILE_MUST_EXIST);
+
+    if (OpenDialog.ShowModal() == wxID_CANCEL)
+        return;
+    
+
+    int noise_type_i;
+    int seed_i;
+    double frequency_d;
+    int interpolation_i;
+    int fractal_type_i;
+    int fractal_octave_i;
+    double fractal_lacunarity_d;
+    double fractal_gain_d;
+    int cellural_return_type_i;
+    int cellural_distance_function_i;
+    
+    open_from_xml(std::string(OpenDialog.GetPath().mb_str()),
+                   noise_type_i,
+                   seed_i,
+                   frequency_d,
+                   interpolation_i,
+                   fractal_type_i,
+                   fractal_octave_i,
+                   fractal_lacunarity_d,
+                   fractal_gain_d,
+                   cellural_return_type_i,
+                   cellural_distance_function_i);
+
+    m_noise->SetNoiseType(static_cast<FastNoise::NoiseType>(noise_type_i));
+    m_noise->SetSeed(seed_i);
+    m_noise->SetFrequency(static_cast<FN_DECIMAL>(frequency_d));
+    m_noise->SetInterp(static_cast<FastNoise::Interp>(interpolation_i));
+
+    m_noise->SetFractalType(static_cast<FastNoise::FractalType>(fractal_type_i));
+    m_noise->SetFractalOctaves(fractal_octave_i);
+    m_noise->SetFractalLacunarity(static_cast<FN_DECIMAL>(fractal_lacunarity_d));
+    m_noise->SetFractalGain(static_cast<FN_DECIMAL>(fractal_gain_d));
+
+    m_noise->SetCellularReturnType(static_cast<FastNoise::CellularReturnType>(cellural_return_type_i));
+    m_noise->SetCellularDistanceFunction(static_cast<FastNoise::CellularDistanceFunction>(cellural_distance_function_i));
 
 }
 #endif //NOISE_MAINFRAME_HH 

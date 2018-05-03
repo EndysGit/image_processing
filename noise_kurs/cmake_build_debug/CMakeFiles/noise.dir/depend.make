@@ -4,10 +4,15 @@
 CMakeFiles/noise.dir/3dparty/FastNoise.cpp.o: ../3dparty/FastNoise.cpp
 CMakeFiles/noise.dir/3dparty/FastNoise.cpp.o: ../3dparty/FastNoise.h
 
+CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.o: ../3dparty/tinyxml2.cpp
+CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.o: ../3dparty/tinyxml2.h
+
 CMakeFiles/noise.dir/Window.cpp.o: ../3dparty/FastNoise.h
+CMakeFiles/noise.dir/Window.cpp.o: ../3dparty/tinyxml2.h
 CMakeFiles/noise.dir/Window.cpp.o: ../MainFrame.h
 CMakeFiles/noise.dir/Window.cpp.o: ../NoiseView.h
 CMakeFiles/noise.dir/Window.cpp.o: ../Window.cpp
+CMakeFiles/noise.dir/Window.cpp.o: ../XMLFunctions.h
 CMakeFiles/noise.dir/Window.cpp.o: /usr/local/include/wx-3.0/wx/accel.h
 CMakeFiles/noise.dir/Window.cpp.o: /usr/local/include/wx-3.0/wx/access.h
 CMakeFiles/noise.dir/Window.cpp.o: /usr/local/include/wx-3.0/wx/affinematrix2d.h

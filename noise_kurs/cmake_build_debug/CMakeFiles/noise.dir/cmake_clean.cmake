@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/noise.dir/Window.cpp.o"
   "CMakeFiles/noise.dir/3dparty/FastNoise.cpp.o"
+  "CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.o"
   "noise.pdb"
   "noise"
 )

@@ -1,5 +1,6 @@
-// wxWidgets "Hello World" Program
-// For compilers that support precompilation, includes "wx/wx.h".
+#ifndef FASTNOISE_MAINFRAIM_HH
+#define FASTNOISE_MAINFRAIM_HH
+
 #include <map>
 #include <array>
 #include <wx/wxprec.h>
@@ -62,3 +63,5 @@ bool NoiseApp::OnInit()
 
    return true;
 }
+
+#endif // FASTNOISE_MAINFRAME_HH
