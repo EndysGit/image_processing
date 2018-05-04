@@ -5,18 +5,22 @@
 #include <chrono>
 #include <cmath>
 
-/* Сделать выравнивание яркости (серая картинка), выше и ниже определенного 
- * диапазона пиксели отсекаются, оставшаяся часть линейно растягивается от 0 до 255.
- * */
 int
-main()
+main(int argc, const char *argv[])
 {
+    std::string file_name("../resources/");
+
+    if (argc == 1)
+        file_name += "leo.jpg";
+    else if (argc == 2)
+        file_name += argv[1];
+
     constexpr uint8_t range{255}; 
     std::array<double, range> hist;
     hist.fill(0.0000);
 
     cv::Mat image;
-    cv::imread("leo.jpg", CV_8UC4).copyTo(image);    
+    cv::imread(file_name, CV_8UC4).copyTo(image);    
     cv::cvtColor(image, image, CV_BGR2GRAY);
     
     cv::Mat processed_image;
@@ -62,6 +66,7 @@ main()
                  );
 
     cv::imshow("hist image", hist_image); 
+    cv::imwrite("../resources/src_hist.jpeg", hist_image, std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
 
     hist.fill(0.000000);
      std::for_each(hist_image.begin<uint8_t>(), 
@@ -98,10 +103,13 @@ main()
     }
 
     cv::imshow("hist_processed", hist_image);
-
-
     cv::imshow("processed_image", processed_image);
     cv::imshow("image", image);
+
+    cv::imwrite("../resources/src_image.jpeg", image, std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
+    cv::imwrite("../resources/hist_proccesed.jpeg", hist_image, std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
+    cv::imwrite("../resources/proccesed_image.jpeg", processed_image, std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
+
     cv::waitKey();
     return 0;
 }

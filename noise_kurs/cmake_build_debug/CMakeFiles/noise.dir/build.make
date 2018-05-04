@@ -142,23 +142,8 @@ noise: CMakeFiles/noise.dir/Window.cpp.o
 noise: CMakeFiles/noise.dir/3dparty/FastNoise.cpp.o
 noise: CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.o
 noise: CMakeFiles/noise.dir/build.make
-noise: /usr/local/lib/libopencv_dnn.3.4.0.dylib
-noise: /usr/local/lib/libopencv_ml.3.4.0.dylib
-noise: /usr/local/lib/libopencv_objdetect.3.4.0.dylib
-noise: /usr/local/lib/libopencv_shape.3.4.0.dylib
-noise: /usr/local/lib/libopencv_stitching.3.4.0.dylib
-noise: /usr/local/lib/libopencv_superres.3.4.0.dylib
-noise: /usr/local/lib/libopencv_videostab.3.4.0.dylib
-noise: /usr/local/lib/libopencv_calib3d.3.4.0.dylib
-noise: /usr/local/lib/libopencv_features2d.3.4.0.dylib
-noise: /usr/local/lib/libopencv_flann.3.4.0.dylib
-noise: /usr/local/lib/libopencv_highgui.3.4.0.dylib
-noise: /usr/local/lib/libopencv_photo.3.4.0.dylib
-noise: /usr/local/lib/libopencv_video.3.4.0.dylib
-noise: /usr/local/lib/libopencv_videoio.3.4.0.dylib
-noise: /usr/local/lib/libopencv_imgcodecs.3.4.0.dylib
-noise: /usr/local/lib/libopencv_imgproc.3.4.0.dylib
-noise: /usr/local/lib/libopencv_core.3.4.0.dylib
+noise: /usr/local/lib/libwx_osx_cocoau_core-3.1.a
+noise: /usr/local/lib/libwx_baseu-3.1.a
 noise: CMakeFiles/noise.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable noise"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/noise.dir/link.txt --verbose=$(VERBOSE)

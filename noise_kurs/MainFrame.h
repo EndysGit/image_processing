@@ -1,20 +1,20 @@
 #ifndef NOISE_MAINFRAME_HH
 #define NOISE_MAINFRAME_HH
 
-#include <wx/frame.h>
-#include <wx/wfstream.h>
-#include <wx/choice.h>
-#include <wx/filedlg.h>
-#include <wx/textctrl.h>
-#include <wx/sizer.h>
-#include <wx/stattext.h>
-#include <wx/flags.h>
-#include <wx/msgdlg.h>
-#include <wx/log.h>
-#include <wx/menu.h>
-#include <wx/time.h>
-#include <wx/button.h>
-#include <wx/checkbox.h>
+#include <wx-3.1/wx/frame.h>
+#include <wx-3.1/wx/wfstream.h>
+#include <wx-3.1/wx/choice.h>
+#include <wx-3.1/wx/filedlg.h>
+#include <wx-3.1/wx/textctrl.h>
+#include <wx-3.1/wx/sizer.h>
+#include <wx-3.1/wx/stattext.h>
+#include <wx-3.1/wx/flags.h>
+#include <wx-3.1/wx/msgdlg.h>
+#include <wx-3.1/wx/log.h>
+#include <wx-3.1/wx/menu.h>
+#include <wx-3.1/wx/time.h>
+#include <wx-3.1/wx/button.h>
+#include <wx-3.1/wx/checkbox.h>
 #include "NoiseView.h"
 #include "XMLFunctions.h"
 
@@ -54,7 +54,7 @@ public:
        
         this->SetBackgroundColour(wxColour(175, 175, 175));
 
-        wxSizerFlags flags = wxSizerFlags(0).Center().Expand().Border(wxALL, 1);
+        wxSizerFlags flags = wxSizerFlags(0).Center().Border(wxALL, 1);
 
         wxStaticBoxSizer *main_sizer = new wxStaticBoxSizer(wxVERTICAL, this, "Fractal Settings");
     
@@ -176,7 +176,7 @@ public:
         
         this->SetBackgroundColour(wxColour(175, 175, 175));
     
-        wxSizerFlags flags =  wxSizerFlags(0).Center().Expand().Border(wxALL, 1);
+        wxSizerFlags flags =  wxSizerFlags(0).Center().Border(wxALL, 1);
 
         wxStaticBoxSizer *main_sizer = new wxStaticBoxSizer(wxVERTICAL, this, "Fractal Settings");
     
@@ -258,7 +258,7 @@ public:
         m_noise = &noise;
         this->SetBackgroundColour(wxColour(175, 175, 175));
         
-        wxSizerFlags flags = wxSizerFlags(0).Center().Expand().Border(wxALL, 1);
+        wxSizerFlags flags = wxSizerFlags(0).Center().Border(wxALL, 1);
 
         wxStaticBoxSizer *main_sizer = new wxStaticBoxSizer(wxVERTICAL, this, "Main settings");
 
@@ -469,20 +469,20 @@ MainFrame::MainFrame()
     wxButton *b_save     = new wxButton(m_settings_panel, ID_B_SAVE, wxT("Save"));
     wxButton *b_open     = new wxButton(m_settings_panel, ID_B_OPEN, wxT("Open"));
 
-    b_sizer->Add(b_generate,  wxSizerFlags(0).Center().Expand().Border(wxALL, 1));
-    b_sizer->Add(b_save, wxSizerFlags(0).Center().Expand().Border(wxALL, 1) );
-    b_sizer->Add(b_open, wxSizerFlags(0).Center().Expand().Border(wxALL, 1) );
+    b_sizer->Add(b_generate,  wxSizerFlags(0).Center().Border(wxALL, 1));
+    b_sizer->Add(b_save, wxSizerFlags(0).Center().Border(wxALL, 1) );
+    b_sizer->Add(b_open, wxSizerFlags(0).Center().Border(wxALL, 1) );
 
-    sizer_panel->Add(b_sizer, wxSizerFlags(0).Center().Expand().Border(wxALL, 1));
+    sizer_panel->Add(b_sizer, wxSizerFlags(0).Center().Border(wxALL, 1));
     
     MainControlPamel *maini_panel = new MainControlPamel(*m_noise, m_settings_panel, wxID_ANY);
-    sizer_panel->Add(maini_panel, wxSizerFlags(0).Center().Expand().Border(wxALL, 1));
+    sizer_panel->Add(maini_panel, wxSizerFlags(0).Center().Border(wxALL, 1));
 
     FractalSettingsPanel *fractal_panel = new FractalSettingsPanel(*m_noise, m_settings_panel, wxID_ANY);
-    sizer_panel->Add(fractal_panel, wxSizerFlags(0).Center().Expand().Border(wxALL, 1));
+    sizer_panel->Add(fractal_panel, wxSizerFlags(0).Center().Border(wxALL, 1));
 
     CelluralSettingsPanel *cellural_panel = new CelluralSettingsPanel(*m_noise, m_settings_panel, wxID_ANY);
-    sizer_panel->Add(cellural_panel, wxSizerFlags(0).Center().Expand().Border(wxALL, 1));
+    sizer_panel->Add(cellural_panel, wxSizerFlags(0).Center().Border(wxALL, 1));
 
     maini_panel->SetFractalPanel(fractal_panel);
     maini_panel->SetCelluralPanel(cellural_panel);
@@ -495,8 +495,8 @@ MainFrame::MainFrame()
     m_noise_view->SetNoise(*m_noise);
     
     
-    sz->Add(m_noise_view, wxSizerFlags(1).Center().Expand().Border(wxALL, 5));
-    sz->Add(m_settings_panel, wxSizerFlags(1).Center().Expand().Border(wxALL, 5));
+    sz->Add(m_noise_view, wxSizerFlags(1).Expand().Border(wxALL, 5));
+    sz->Add(m_settings_panel, wxSizerFlags(1).Expand().Border(wxALL, 5));
 
     SetSizerAndFit(sz);
     wxMenu *menuFile = new wxMenu;

@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/lab1/cmake_build_debug",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -isystem /usr/local/include -isystem /usr/local/include/opencv  -std=c++14   -o CMakeFiles/lab1.dir/main.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/lab1/main.cpp",
-  "file": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/lab1/main.cpp"
-}
-]

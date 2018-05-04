@@ -1,3 +1,0 @@
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/test/cmake_build_debug/CMakeFiles/rebuild_cache.dir
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/test/cmake_build_debug/CMakeFiles/edit_cache.dir
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/test/cmake_build_debug/CMakeFiles/test_kr.dir

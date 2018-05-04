@@ -12,7 +12,6 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "WXUSINGDLL"
   "_FILE_OFFSET_BITS=64"
   "__WXMAC__"
   "__WXOSX_COCOA__"
@@ -21,10 +20,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include"
-  "/usr/local/include/opencv"
-  "/usr/local/lib/wx/include/osx_cocoa-unicode-3.0"
-  "/usr/local/include/wx-3.0"
+  "/usr/local/lib/wx/include/osx_cocoa-unicode-static-3.1"
+  "/usr/local/include/wx-3.1"
   )
 
 # Targets to which this target links.

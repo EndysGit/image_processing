@@ -43,7 +43,7 @@ int
 main()
 {
     constexpr size_t cx_height{600};
-    constexpr size_t cx_width{250};
+    constexpr size_t cx_width{90};
     constexpr size_t cx_h{0};
     constexpr size_t cx_s{1};
     constexpr size_t cx_v{2};
@@ -83,13 +83,16 @@ main()
         }
     }
 
-    cv::cvtColor(processed_image, processed_image, CV_HSV2BGR);
+    cv::cvtColor(processed_image, processed_image, CV_HSV2RGB);
 
     cv::imshow("main_image", main_image);
+    cv::imwrite("../resources/src_image.jpeg", main_image, std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
+
     cv::imshow("processed_image", processed_image);
+    processed_image *= 255;
+    cv::imwrite("../resources/proccesed_image.jpeg", processed_image,  std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
+
     cv::waitKey();
-    cv::destroyAllWindows();
 
    	return 0;
-
 }

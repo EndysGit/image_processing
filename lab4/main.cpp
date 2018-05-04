@@ -13,7 +13,10 @@ int
 main(int argc, char *argv[])
 {
     cv::Mat image;
-    image = cv::imread(argv[1]);
+    if (argc == 2)
+        image = cv::imread(argv[1]);
+    if (argc == 1)
+        image = cv::imread("../resources/shiro.png");
     
     const cv::Size sz(image.cols/2, image.rows/2);
     cv::resize(image, image, sz);
@@ -24,13 +27,15 @@ main(int argc, char *argv[])
     // ----------
     cv::filter2D(image, processed_image, -1, std::vector<float>({-0.5, 0.5}));
     cv::imshow("core filter", processed_image);
-
+    cv::imwrite("../resources/core.jpeg", image, std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
+    
     // Ones Filter 
     // -----------
     size_t ones_kernel_sz{5};
     cv::Mat ones_kernel = cv::Mat::ones(ones_kernel_sz, ones_kernel_sz, CV_32F)/static_cast<float>(ones_kernel_sz * ones_kernel_sz);
     cv::filter2D(image, processed_image, -1, ones_kernel);
     cv::imshow("ones", processed_image);
+    cv::imwrite("../resources/ones.jpeg", image, std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
     
     // Blur filter
     // -----------
@@ -50,6 +55,7 @@ main(int argc, char *argv[])
     blur_kernel /= static_cast<float>(16);
     cv::filter2D(image, processed_image, -1, blur_kernel);
     cv::imshow("blur", processed_image);
+    cv::imwrite("../resources/blur.jpeg", image, std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
 
     // Median filter
     // ------------
@@ -88,13 +94,14 @@ main(int argc, char *argv[])
     }
      
     cv::imshow("median", processed_image);
+    cv::imwrite("../resources/median.jpeg", image, std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
 
     // Box Filter
     // ----------
     image.copyTo(processed_image);
     cv::boxFilter(processed_image, processed_image, -1, cv::Size(3,3));
     cv::imshow("BoxFilter", processed_image);
-    
+    cv::imwrite("../resources/box.jpeg", image, std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
 
     cv::imshow("Image", image);
     cv::waitKey();

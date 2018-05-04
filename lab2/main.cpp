@@ -12,7 +12,7 @@ main()
     constexpr uint8_t cx_v{2};
 
     cv::Mat image;
-    image = cv::imread("shiro.png");
+    image = cv::imread("../resources/shiro.png");
     cv::cvtColor(image, image, CV_BGR2HSV);
 
     cv::Mat image_bin(image.rows, image.cols, CV_8UC1);
@@ -25,7 +25,7 @@ main()
                 image_bin.at<uint8_t>(row, col) = cx_black;
 
     cv::imshow("Image bin", image_bin);
-    cv::imwrite("image_bin.jpeg", image_bin, std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
+    cv::imwrite("../resources/image_bin.jpeg", image_bin, std::vector<int>({CV_IMWRITE_JPEG_QUALITY, 100}));
     cv::waitKey();
 
    	return 0;
