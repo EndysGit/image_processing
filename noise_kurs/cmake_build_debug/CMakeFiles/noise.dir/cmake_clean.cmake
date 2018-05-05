@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/noise.dir/src/NoiseView.cpp.o"
   "CMakeFiles/noise.dir/src/Window.cpp.o"
   "noise.pdb"
   "noise.app/Contents/MacOS/noise"

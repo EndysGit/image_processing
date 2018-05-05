@@ -6,9 +6,7 @@
 #include <map>
 #include <array>
 #include <wx-3.1/wx/wxprec.h>
-#include "3dparty/FastNoise.h" 
 #include "MainFrame.h"
-#include "NoiseView.h"
 #ifndef WX_PRECOMP
     #include <wx-3.1/wx/wx.h>
 #endif

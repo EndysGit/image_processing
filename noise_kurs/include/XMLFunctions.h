@@ -2,7 +2,7 @@
 #define FASTNOISE_XMLFUNCTIONS_HH
 
 #include <string>
-#include "3dparty/tinyxml2.h"
+#include "3dparty/tinyxml2/include/tinyxml2.h"
 
 const std::string c_fast_noise              = "FastNoise";
 const std::string c_noise_type              = "NoiseType";

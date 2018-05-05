@@ -149,6 +149,33 @@ tinyxml2/fast:
 	$(MAKE) -f 3dparty/tinyxml2/CMakeFiles/tinyxml2.dir/build.make 3dparty/tinyxml2/CMakeFiles/tinyxml2.dir/build
 .PHONY : tinyxml2/fast
 
+src/NoiseView.o: src/NoiseView.cpp.o
+
+.PHONY : src/NoiseView.o
+
+# target to build an object file
+src/NoiseView.cpp.o:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/NoiseView.cpp.o
+.PHONY : src/NoiseView.cpp.o
+
+src/NoiseView.i: src/NoiseView.cpp.i
+
+.PHONY : src/NoiseView.i
+
+# target to preprocess a source file
+src/NoiseView.cpp.i:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/NoiseView.cpp.i
+.PHONY : src/NoiseView.cpp.i
+
+src/NoiseView.s: src/NoiseView.cpp.s
+
+.PHONY : src/NoiseView.s
+
+# target to generate assembly for a file
+src/NoiseView.cpp.s:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/NoiseView.cpp.s
+.PHONY : src/NoiseView.cpp.s
+
 src/Window.o: src/Window.cpp.o
 
 .PHONY : src/Window.o
@@ -187,6 +214,9 @@ help:
 	@echo "... noise"
 	@echo "... FastNoise"
 	@echo "... tinyxml2"
+	@echo "... src/NoiseView.o"
+	@echo "... src/NoiseView.i"
+	@echo "... src/NoiseView.s"
 	@echo "... src/Window.o"
 	@echo "... src/Window.i"
 	@echo "... src/Window.s"

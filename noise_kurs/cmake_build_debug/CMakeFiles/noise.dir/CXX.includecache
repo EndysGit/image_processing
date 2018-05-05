@@ -86,6 +86,10 @@ string
 3dparty/tinyxml2/include/tinyxml2.h
 ../include/3dparty/tinyxml2/include/tinyxml2.h
 
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/NoiseView.cpp
+NoiseView.h
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/NoiseView.h
+
 /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/Window.cpp
 map
 -

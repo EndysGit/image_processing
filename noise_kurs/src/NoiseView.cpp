@@ -1,26 +1,4 @@
-#ifndef FASTNOISE_NOISEVIEW_HH
-#define FASTNOISE_NOISEVIEW_HH
-
-#include "3dparty/FastNoise.h"
-#include <wx-3.1/wx/panel.h>
-#include <wx-3.1/wx/dcclient.h>
-
-class NoieseView : public wxPanel
-{
-public:
-   NoieseView(wxWindow *parent, 
-              wxWindowID id, 
-              const wxPoint &position, 
-              const wxSize &size); 
-   ~NoieseView()
-   {
-       m_image->Destroy();
-   }
-    void SetNoise(const FastNoise &noise_source);
-    void OnPaint(wxPaintEvent &event);
-private:
-   wxImage *m_image;
-};
+#include "NoiseView.h"
 
 NoieseView::NoieseView(wxWindow *parent, 
               wxWindowID id, 
@@ -30,6 +8,11 @@ NoieseView::NoieseView(wxWindow *parent,
                                      m_image(new wxImage(size)) 
 {
     this->Connect(wxEVT_PAINT, wxPaintEventHandler(NoieseView::OnPaint));
+}
+
+NoieseView::~NoieseView()
+{
+    m_image->Destroy();
 }
 
 void 
@@ -50,5 +33,3 @@ NoieseView::OnPaint(wxPaintEvent &event)
     wxBitmap bmp(*m_image);
     dc.DrawBitmap(bmp, 0, 0);
 }
-
-#endif // FASTNOISE_NOISEVIEW_HH 

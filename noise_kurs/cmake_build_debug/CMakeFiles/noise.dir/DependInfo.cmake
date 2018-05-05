@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/NoiseView.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/noise.dir/src/NoiseView.cpp.o"
   "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/Window.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/noise.dir/src/Window.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

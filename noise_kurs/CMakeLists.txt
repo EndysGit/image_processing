@@ -3,16 +3,22 @@ project(noise)
 
 find_package(wxWidgets COMPONENTS core base REQUIRED)
 
-set(CMAKE_CXX_FLAGS "-Wall -stdlib=libc++ -std=c++14 ")
+set(CMAKE_CXX_FLAGS "-Wall -stdlib=libc++ -std=c++14")
+set(CMAKE_WXWINDOWS_CXX_FLAGS "wx-config -static=yes")
+set(INCLUDE_DIRS "include")
+add_subdirectory(3dparty)
+
 set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
 
 include( "${wxWidgets_USE_FILE}" )
+include_directories(${INCLUDE_DIRS})
 
-set(SOURCE_FILES Window.cpp 
-                 3dparty/FastNoise.h 
-                 3dparty/FastNoise.cpp
-                 3dparty/tinyxml2.h 
-                 3dparty/tinyxml2.cpp)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
-add_executable(noise  ${SOURCE_FILES})
-target_link_libraries(noise ${wxWidgets_LIBRARIES}) 
+file(GLOB_RECURSE SRC_FILES src/*.cpp)
+
+add_executable(noise MACOSX_BUNDLE ${SRC_FILES} ${INCLUDE_DIRS})
+
+target_link_libraries(noise FastNoise tinyxml2 ${wxWidgets_LIBRARIES}) 
+
+
