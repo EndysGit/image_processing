@@ -7,6 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "../3dparty/CMakeLists.txt"
+  "../3dparty/FastNoise/CMakeLists.txt"
+  "../3dparty/tinyxml2/CMakeLists.txt"
   "../CMakeLists.txt"
   "CMakeFiles/3.10.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.1/CMakeCXXCompiler.cmake"
@@ -26,6 +29,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/FindPackageMessage.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/FindwxWidgets.cmake"
+  "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/MacOSXBundleInfo.plist.in"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/Platform/Darwin-AppleClang-C.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/Platform/Darwin-AppleClang-CXX.cmake"
   "/usr/local/Cellar/cmake/3.10.1/share/cmake/Modules/Platform/Darwin-Clang-C.cmake"
@@ -45,10 +49,18 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "noise.app/Contents/MacOS"
+  "noise.app/Contents/Info.plist"
+  "noise.app/Contents/Info.plist"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "3dparty/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "3dparty/FastNoise/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "3dparty/tinyxml2/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/noise.dir/DependInfo.cmake"
+  "3dparty/FastNoise/CMakeFiles/FastNoise.dir/DependInfo.cmake"
+  "3dparty/tinyxml2/CMakeFiles/tinyxml2.dir/DependInfo.cmake"
   )

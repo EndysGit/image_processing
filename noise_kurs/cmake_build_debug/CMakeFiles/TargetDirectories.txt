@@ -1,3 +1,11 @@
 /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/rebuild_cache.dir
 /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/edit_cache.dir
 /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/noise.dir
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/3dparty/CMakeFiles/rebuild_cache.dir
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/3dparty/CMakeFiles/edit_cache.dir
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/3dparty/FastNoise/CMakeFiles/rebuild_cache.dir
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/3dparty/FastNoise/CMakeFiles/edit_cache.dir
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/3dparty/FastNoise/CMakeFiles/FastNoise.dir
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/3dparty/tinyxml2/CMakeFiles/rebuild_cache.dir
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/3dparty/tinyxml2/CMakeFiles/edit_cache.dir
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/3dparty/tinyxml2/CMakeFiles/tinyxml2.dir

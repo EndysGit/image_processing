@@ -6,35 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.cpp
-FastNoise.h
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.h
-math.h
--
-assert.h
--
-algorithm
--
-random
--
+..//3dparty/FastNoise/include/FastNoise.h
 
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.h
-
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.cpp
-tinyxml2.h
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.h
-new
--
-stddef.h
--
-stdarg.h
--
-cstddef
--
-cstdarg
--
-
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.h
+..//3dparty/tinyxml2/include/tinyxml2.h
 ctype.h
 -
 limits.h
@@ -64,7 +38,7 @@ android/log.h
 assert.h
 -
 
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/MainFrame.h
+../include/MainFrame.h
 wx-3.1/wx/frame.h
 -
 wx-3.1/wx/wfstream.h
@@ -94,37 +68,33 @@ wx-3.1/wx/button.h
 wx-3.1/wx/checkbox.h
 -
 NoiseView.h
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/NoiseView.h
+../include/NoiseView.h
 XMLFunctions.h
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/XMLFunctions.h
+../include/XMLFunctions.h
 
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/NoiseView.h
-3dparty/FastNoise.h
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.h
+../include/NoiseView.h
+3dparty/FastNoise/include/FastNoise.h
+../include/3dparty/FastNoise/include/FastNoise.h
 wx-3.1/wx/panel.h
 -
 wx-3.1/wx/dcclient.h
 -
 
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/Window.cpp
+../include/XMLFunctions.h
+string
+-
+3dparty/tinyxml2/include/tinyxml2.h
+../include/3dparty/tinyxml2/include/tinyxml2.h
+
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/Window.cpp
 map
 -
 array
 -
 wx-3.1/wx/wxprec.h
 -
-3dparty/FastNoise.h
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.h
 MainFrame.h
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/MainFrame.h
-NoiseView.h
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/NoiseView.h
+/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/MainFrame.h
 wx-3.1/wx/wx.h
 -
-
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/XMLFunctions.h
-string
--
-3dparty/tinyxml2.h
-/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.h
 

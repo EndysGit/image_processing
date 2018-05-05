@@ -123,86 +123,58 @@ noise/fast:
 	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/build
 .PHONY : noise/fast
 
-3dparty/FastNoise.o: 3dparty/FastNoise.cpp.o
+#=============================================================================
+# Target rules for targets named FastNoise
 
-.PHONY : 3dparty/FastNoise.o
+# Build rule for target.
+FastNoise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FastNoise
+.PHONY : FastNoise
 
-# target to build an object file
-3dparty/FastNoise.cpp.o:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/FastNoise.cpp.o
-.PHONY : 3dparty/FastNoise.cpp.o
+# fast build rule for target.
+FastNoise/fast:
+	$(MAKE) -f 3dparty/FastNoise/CMakeFiles/FastNoise.dir/build.make 3dparty/FastNoise/CMakeFiles/FastNoise.dir/build
+.PHONY : FastNoise/fast
 
-3dparty/FastNoise.i: 3dparty/FastNoise.cpp.i
+#=============================================================================
+# Target rules for targets named tinyxml2
 
-.PHONY : 3dparty/FastNoise.i
+# Build rule for target.
+tinyxml2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tinyxml2
+.PHONY : tinyxml2
 
-# target to preprocess a source file
-3dparty/FastNoise.cpp.i:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/FastNoise.cpp.i
-.PHONY : 3dparty/FastNoise.cpp.i
+# fast build rule for target.
+tinyxml2/fast:
+	$(MAKE) -f 3dparty/tinyxml2/CMakeFiles/tinyxml2.dir/build.make 3dparty/tinyxml2/CMakeFiles/tinyxml2.dir/build
+.PHONY : tinyxml2/fast
 
-3dparty/FastNoise.s: 3dparty/FastNoise.cpp.s
+src/Window.o: src/Window.cpp.o
 
-.PHONY : 3dparty/FastNoise.s
-
-# target to generate assembly for a file
-3dparty/FastNoise.cpp.s:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/FastNoise.cpp.s
-.PHONY : 3dparty/FastNoise.cpp.s
-
-3dparty/tinyxml2.o: 3dparty/tinyxml2.cpp.o
-
-.PHONY : 3dparty/tinyxml2.o
-
-# target to build an object file
-3dparty/tinyxml2.cpp.o:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.o
-.PHONY : 3dparty/tinyxml2.cpp.o
-
-3dparty/tinyxml2.i: 3dparty/tinyxml2.cpp.i
-
-.PHONY : 3dparty/tinyxml2.i
-
-# target to preprocess a source file
-3dparty/tinyxml2.cpp.i:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.i
-.PHONY : 3dparty/tinyxml2.cpp.i
-
-3dparty/tinyxml2.s: 3dparty/tinyxml2.cpp.s
-
-.PHONY : 3dparty/tinyxml2.s
-
-# target to generate assembly for a file
-3dparty/tinyxml2.cpp.s:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.s
-.PHONY : 3dparty/tinyxml2.cpp.s
-
-Window.o: Window.cpp.o
-
-.PHONY : Window.o
+.PHONY : src/Window.o
 
 # target to build an object file
-Window.cpp.o:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/Window.cpp.o
-.PHONY : Window.cpp.o
+src/Window.cpp.o:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/Window.cpp.o
+.PHONY : src/Window.cpp.o
 
-Window.i: Window.cpp.i
+src/Window.i: src/Window.cpp.i
 
-.PHONY : Window.i
+.PHONY : src/Window.i
 
 # target to preprocess a source file
-Window.cpp.i:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/Window.cpp.i
-.PHONY : Window.cpp.i
+src/Window.cpp.i:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/Window.cpp.i
+.PHONY : src/Window.cpp.i
 
-Window.s: Window.cpp.s
+src/Window.s: src/Window.cpp.s
 
-.PHONY : Window.s
+.PHONY : src/Window.s
 
 # target to generate assembly for a file
-Window.cpp.s:
-	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/Window.cpp.s
-.PHONY : Window.cpp.s
+src/Window.cpp.s:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/Window.cpp.s
+.PHONY : src/Window.cpp.s
 
 # Help Target
 help:
@@ -213,15 +185,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... noise"
-	@echo "... 3dparty/FastNoise.o"
-	@echo "... 3dparty/FastNoise.i"
-	@echo "... 3dparty/FastNoise.s"
-	@echo "... 3dparty/tinyxml2.o"
-	@echo "... 3dparty/tinyxml2.i"
-	@echo "... 3dparty/tinyxml2.s"
-	@echo "... Window.o"
-	@echo "... Window.i"
-	@echo "... Window.s"
+	@echo "... FastNoise"
+	@echo "... tinyxml2"
+	@echo "... src/Window.o"
+	@echo "... src/Window.i"
+	@echo "... src/Window.s"
 .PHONY : help
 
 

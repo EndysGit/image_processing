@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/noise.dir/Window.cpp.o"
-  "CMakeFiles/noise.dir/3dparty/FastNoise.cpp.o"
-  "CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.o"
+  "CMakeFiles/noise.dir/src/Window.cpp.o"
   "noise.pdb"
-  "noise"
+  "noise.app/Contents/MacOS/noise"
 )
 
 # Per-language clean rules from dependency scanning.
