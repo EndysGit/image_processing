@@ -8,7 +8,10 @@ CMakeFiles/noise.dir/src/NoiseView.cpp.o
 CMakeFiles/noise.dir/src/Window.cpp.o
  ..//3dparty/FastNoise/include/FastNoise.h
  ..//3dparty/tinyxml2/include/tinyxml2.h
+ ../include/CelluralSettings.h
+ ../include/FractalSettings.h
  ../include/MainFrame.h
+ ../include/MainSettings.h
  ../include/NoiseView.h
  ../include/XMLFunctions.h
  /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/Window.cpp

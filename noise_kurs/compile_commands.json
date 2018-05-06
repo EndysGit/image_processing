@@ -1,17 +1,12 @@
 [
 {
   "directory": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-static-3.1 -isystem /usr/local/include/wx-3.1  -Wall -stdlib=libc++ -std=c++14 `wx-config --static=yes --libs core,base`   -o CMakeFiles/noise.dir/Window.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/Window.cpp",
-  "file": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/Window.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -I/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug -I/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-static-3.1 -isystem /usr/local/include/wx-3.1 -I/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/include  -Wall -stdlib=libc++ -std=c++14   -o CMakeFiles/noise.dir/src/NoiseView.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/NoiseView.cpp",
+  "file": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/NoiseView.cpp"
 },
 {
   "directory": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-static-3.1 -isystem /usr/local/include/wx-3.1  -Wall -stdlib=libc++ -std=c++14 `wx-config --static=yes --libs core,base`   -o CMakeFiles/noise.dir/3dparty/FastNoise.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.cpp",
-  "file": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/FastNoise.cpp"
-},
-{
-  "directory": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-static-3.1 -isystem /usr/local/include/wx-3.1  -Wall -stdlib=libc++ -std=c++14 `wx-config --static=yes --libs core,base`   -o CMakeFiles/noise.dir/3dparty/tinyxml2.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.cpp",
-  "file": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/3dparty/tinyxml2.cpp"
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -D_FILE_OFFSET_BITS=64 -D__WXMAC__ -D__WXOSX_COCOA__ -D__WXOSX__ -I/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug -I/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs -isystem /usr/local/lib/wx/include/osx_cocoa-unicode-static-3.1 -isystem /usr/local/include/wx-3.1 -I/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/include  -Wall -stdlib=libc++ -std=c++14   -o CMakeFiles/noise.dir/src/Window.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/Window.cpp",
+  "file": "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/Window.cpp"
 }
 ]

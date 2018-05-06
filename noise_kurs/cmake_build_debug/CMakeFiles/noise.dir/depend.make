@@ -7,7 +7,10 @@ CMakeFiles/noise.dir/src/NoiseView.cpp.o: ../src/NoiseView.cpp
 
 CMakeFiles/noise.dir/src/Window.cpp.o: ../3dparty/FastNoise/include/FastNoise.h
 CMakeFiles/noise.dir/src/Window.cpp.o: ../3dparty/tinyxml2/include/tinyxml2.h
+CMakeFiles/noise.dir/src/Window.cpp.o: ../include/CelluralSettings.h
+CMakeFiles/noise.dir/src/Window.cpp.o: ../include/FractalSettings.h
 CMakeFiles/noise.dir/src/Window.cpp.o: ../include/MainFrame.h
+CMakeFiles/noise.dir/src/Window.cpp.o: ../include/MainSettings.h
 CMakeFiles/noise.dir/src/Window.cpp.o: ../include/NoiseView.h
 CMakeFiles/noise.dir/src/Window.cpp.o: ../include/XMLFunctions.h
 CMakeFiles/noise.dir/src/Window.cpp.o: ../src/Window.cpp
