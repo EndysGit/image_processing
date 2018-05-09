@@ -1,8 +1,7 @@
 #ifndef FASTNOISE_NOISEVIEW_HH
 #define FASTNOISE_NOISEVIEW_HH
 
-#include "3dparty/FastNoise/include/FastNoise.h"
-#include <wx-3.1/wx/panel.h>
+#include "MasterHeader.h"
 #include <wx-3.1/wx/dcclient.h>
 
 class NoieseView : public wxPanel

@@ -1,10 +1,6 @@
 #ifndef FASTNOISE_MAINFRAIM_HH
 #define FASTNOISE_MAINFRAIM_HH
 
-
-
-#include <map>
-#include <array>
 #include <wx-3.1/wx/wxprec.h>
 #include "MainFrame.h"
 #ifndef WX_PRECOMP
