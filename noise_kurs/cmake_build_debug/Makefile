@@ -149,6 +149,114 @@ tinyxml2/fast:
 	$(MAKE) -f 3dparty/tinyxml2/CMakeFiles/tinyxml2.dir/build.make 3dparty/tinyxml2/CMakeFiles/tinyxml2.dir/build
 .PHONY : tinyxml2/fast
 
+src/CelluralSettings.o: src/CelluralSettings.cpp.o
+
+.PHONY : src/CelluralSettings.o
+
+# target to build an object file
+src/CelluralSettings.cpp.o:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/CelluralSettings.cpp.o
+.PHONY : src/CelluralSettings.cpp.o
+
+src/CelluralSettings.i: src/CelluralSettings.cpp.i
+
+.PHONY : src/CelluralSettings.i
+
+# target to preprocess a source file
+src/CelluralSettings.cpp.i:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/CelluralSettings.cpp.i
+.PHONY : src/CelluralSettings.cpp.i
+
+src/CelluralSettings.s: src/CelluralSettings.cpp.s
+
+.PHONY : src/CelluralSettings.s
+
+# target to generate assembly for a file
+src/CelluralSettings.cpp.s:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/CelluralSettings.cpp.s
+.PHONY : src/CelluralSettings.cpp.s
+
+src/FractalSettings.o: src/FractalSettings.cpp.o
+
+.PHONY : src/FractalSettings.o
+
+# target to build an object file
+src/FractalSettings.cpp.o:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/FractalSettings.cpp.o
+.PHONY : src/FractalSettings.cpp.o
+
+src/FractalSettings.i: src/FractalSettings.cpp.i
+
+.PHONY : src/FractalSettings.i
+
+# target to preprocess a source file
+src/FractalSettings.cpp.i:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/FractalSettings.cpp.i
+.PHONY : src/FractalSettings.cpp.i
+
+src/FractalSettings.s: src/FractalSettings.cpp.s
+
+.PHONY : src/FractalSettings.s
+
+# target to generate assembly for a file
+src/FractalSettings.cpp.s:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/FractalSettings.cpp.s
+.PHONY : src/FractalSettings.cpp.s
+
+src/MainFrame.o: src/MainFrame.cpp.o
+
+.PHONY : src/MainFrame.o
+
+# target to build an object file
+src/MainFrame.cpp.o:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/MainFrame.cpp.o
+.PHONY : src/MainFrame.cpp.o
+
+src/MainFrame.i: src/MainFrame.cpp.i
+
+.PHONY : src/MainFrame.i
+
+# target to preprocess a source file
+src/MainFrame.cpp.i:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/MainFrame.cpp.i
+.PHONY : src/MainFrame.cpp.i
+
+src/MainFrame.s: src/MainFrame.cpp.s
+
+.PHONY : src/MainFrame.s
+
+# target to generate assembly for a file
+src/MainFrame.cpp.s:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/MainFrame.cpp.s
+.PHONY : src/MainFrame.cpp.s
+
+src/MainSettings.o: src/MainSettings.cpp.o
+
+.PHONY : src/MainSettings.o
+
+# target to build an object file
+src/MainSettings.cpp.o:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/MainSettings.cpp.o
+.PHONY : src/MainSettings.cpp.o
+
+src/MainSettings.i: src/MainSettings.cpp.i
+
+.PHONY : src/MainSettings.i
+
+# target to preprocess a source file
+src/MainSettings.cpp.i:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/MainSettings.cpp.i
+.PHONY : src/MainSettings.cpp.i
+
+src/MainSettings.s: src/MainSettings.cpp.s
+
+.PHONY : src/MainSettings.s
+
+# target to generate assembly for a file
+src/MainSettings.cpp.s:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/MainSettings.cpp.s
+.PHONY : src/MainSettings.cpp.s
+
 src/NoiseView.o: src/NoiseView.cpp.o
 
 .PHONY : src/NoiseView.o
@@ -203,6 +311,33 @@ src/Window.cpp.s:
 	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/Window.cpp.s
 .PHONY : src/Window.cpp.s
 
+src/XMLFunctions.o: src/XMLFunctions.cpp.o
+
+.PHONY : src/XMLFunctions.o
+
+# target to build an object file
+src/XMLFunctions.cpp.o:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/XMLFunctions.cpp.o
+.PHONY : src/XMLFunctions.cpp.o
+
+src/XMLFunctions.i: src/XMLFunctions.cpp.i
+
+.PHONY : src/XMLFunctions.i
+
+# target to preprocess a source file
+src/XMLFunctions.cpp.i:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/XMLFunctions.cpp.i
+.PHONY : src/XMLFunctions.cpp.i
+
+src/XMLFunctions.s: src/XMLFunctions.cpp.s
+
+.PHONY : src/XMLFunctions.s
+
+# target to generate assembly for a file
+src/XMLFunctions.cpp.s:
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/XMLFunctions.cpp.s
+.PHONY : src/XMLFunctions.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -214,12 +349,27 @@ help:
 	@echo "... noise"
 	@echo "... FastNoise"
 	@echo "... tinyxml2"
+	@echo "... src/CelluralSettings.o"
+	@echo "... src/CelluralSettings.i"
+	@echo "... src/CelluralSettings.s"
+	@echo "... src/FractalSettings.o"
+	@echo "... src/FractalSettings.i"
+	@echo "... src/FractalSettings.s"
+	@echo "... src/MainFrame.o"
+	@echo "... src/MainFrame.i"
+	@echo "... src/MainFrame.s"
+	@echo "... src/MainSettings.o"
+	@echo "... src/MainSettings.i"
+	@echo "... src/MainSettings.s"
 	@echo "... src/NoiseView.o"
 	@echo "... src/NoiseView.i"
 	@echo "... src/NoiseView.s"
 	@echo "... src/Window.o"
 	@echo "... src/Window.i"
 	@echo "... src/Window.s"
+	@echo "... src/XMLFunctions.o"
+	@echo "... src/XMLFunctions.i"
+	@echo "... src/XMLFunctions.s"
 .PHONY : help
 
 

@@ -4,8 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/CelluralSettings.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/noise.dir/src/CelluralSettings.cpp.o"
+  "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/FractalSettings.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/noise.dir/src/FractalSettings.cpp.o"
+  "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/MainFrame.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/noise.dir/src/MainFrame.cpp.o"
+  "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/MainSettings.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/noise.dir/src/MainSettings.cpp.o"
   "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/NoiseView.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/noise.dir/src/NoiseView.cpp.o"
   "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/Window.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/noise.dir/src/Window.cpp.o"
+  "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/XMLFunctions.cpp" "/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles/noise.dir/src/XMLFunctions.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

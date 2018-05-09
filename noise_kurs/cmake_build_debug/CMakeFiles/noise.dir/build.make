@@ -57,9 +57,105 @@ include CMakeFiles/noise.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/noise.dir/flags.make
 
+CMakeFiles/noise.dir/src/CelluralSettings.cpp.o: CMakeFiles/noise.dir/flags.make
+CMakeFiles/noise.dir/src/CelluralSettings.cpp.o: ../src/CelluralSettings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/noise.dir/src/CelluralSettings.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/noise.dir/src/CelluralSettings.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/CelluralSettings.cpp
+
+CMakeFiles/noise.dir/src/CelluralSettings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/noise.dir/src/CelluralSettings.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/CelluralSettings.cpp > CMakeFiles/noise.dir/src/CelluralSettings.cpp.i
+
+CMakeFiles/noise.dir/src/CelluralSettings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/noise.dir/src/CelluralSettings.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/CelluralSettings.cpp -o CMakeFiles/noise.dir/src/CelluralSettings.cpp.s
+
+CMakeFiles/noise.dir/src/CelluralSettings.cpp.o.requires:
+
+.PHONY : CMakeFiles/noise.dir/src/CelluralSettings.cpp.o.requires
+
+CMakeFiles/noise.dir/src/CelluralSettings.cpp.o.provides: CMakeFiles/noise.dir/src/CelluralSettings.cpp.o.requires
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/CelluralSettings.cpp.o.provides.build
+.PHONY : CMakeFiles/noise.dir/src/CelluralSettings.cpp.o.provides
+
+CMakeFiles/noise.dir/src/CelluralSettings.cpp.o.provides.build: CMakeFiles/noise.dir/src/CelluralSettings.cpp.o
+
+
+CMakeFiles/noise.dir/src/FractalSettings.cpp.o: CMakeFiles/noise.dir/flags.make
+CMakeFiles/noise.dir/src/FractalSettings.cpp.o: ../src/FractalSettings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/noise.dir/src/FractalSettings.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/noise.dir/src/FractalSettings.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/FractalSettings.cpp
+
+CMakeFiles/noise.dir/src/FractalSettings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/noise.dir/src/FractalSettings.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/FractalSettings.cpp > CMakeFiles/noise.dir/src/FractalSettings.cpp.i
+
+CMakeFiles/noise.dir/src/FractalSettings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/noise.dir/src/FractalSettings.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/FractalSettings.cpp -o CMakeFiles/noise.dir/src/FractalSettings.cpp.s
+
+CMakeFiles/noise.dir/src/FractalSettings.cpp.o.requires:
+
+.PHONY : CMakeFiles/noise.dir/src/FractalSettings.cpp.o.requires
+
+CMakeFiles/noise.dir/src/FractalSettings.cpp.o.provides: CMakeFiles/noise.dir/src/FractalSettings.cpp.o.requires
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/FractalSettings.cpp.o.provides.build
+.PHONY : CMakeFiles/noise.dir/src/FractalSettings.cpp.o.provides
+
+CMakeFiles/noise.dir/src/FractalSettings.cpp.o.provides.build: CMakeFiles/noise.dir/src/FractalSettings.cpp.o
+
+
+CMakeFiles/noise.dir/src/MainFrame.cpp.o: CMakeFiles/noise.dir/flags.make
+CMakeFiles/noise.dir/src/MainFrame.cpp.o: ../src/MainFrame.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/noise.dir/src/MainFrame.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/noise.dir/src/MainFrame.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/MainFrame.cpp
+
+CMakeFiles/noise.dir/src/MainFrame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/noise.dir/src/MainFrame.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/MainFrame.cpp > CMakeFiles/noise.dir/src/MainFrame.cpp.i
+
+CMakeFiles/noise.dir/src/MainFrame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/noise.dir/src/MainFrame.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/MainFrame.cpp -o CMakeFiles/noise.dir/src/MainFrame.cpp.s
+
+CMakeFiles/noise.dir/src/MainFrame.cpp.o.requires:
+
+.PHONY : CMakeFiles/noise.dir/src/MainFrame.cpp.o.requires
+
+CMakeFiles/noise.dir/src/MainFrame.cpp.o.provides: CMakeFiles/noise.dir/src/MainFrame.cpp.o.requires
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/MainFrame.cpp.o.provides.build
+.PHONY : CMakeFiles/noise.dir/src/MainFrame.cpp.o.provides
+
+CMakeFiles/noise.dir/src/MainFrame.cpp.o.provides.build: CMakeFiles/noise.dir/src/MainFrame.cpp.o
+
+
+CMakeFiles/noise.dir/src/MainSettings.cpp.o: CMakeFiles/noise.dir/flags.make
+CMakeFiles/noise.dir/src/MainSettings.cpp.o: ../src/MainSettings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/noise.dir/src/MainSettings.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/noise.dir/src/MainSettings.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/MainSettings.cpp
+
+CMakeFiles/noise.dir/src/MainSettings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/noise.dir/src/MainSettings.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/MainSettings.cpp > CMakeFiles/noise.dir/src/MainSettings.cpp.i
+
+CMakeFiles/noise.dir/src/MainSettings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/noise.dir/src/MainSettings.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/MainSettings.cpp -o CMakeFiles/noise.dir/src/MainSettings.cpp.s
+
+CMakeFiles/noise.dir/src/MainSettings.cpp.o.requires:
+
+.PHONY : CMakeFiles/noise.dir/src/MainSettings.cpp.o.requires
+
+CMakeFiles/noise.dir/src/MainSettings.cpp.o.provides: CMakeFiles/noise.dir/src/MainSettings.cpp.o.requires
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/MainSettings.cpp.o.provides.build
+.PHONY : CMakeFiles/noise.dir/src/MainSettings.cpp.o.provides
+
+CMakeFiles/noise.dir/src/MainSettings.cpp.o.provides.build: CMakeFiles/noise.dir/src/MainSettings.cpp.o
+
+
 CMakeFiles/noise.dir/src/NoiseView.cpp.o: CMakeFiles/noise.dir/flags.make
 CMakeFiles/noise.dir/src/NoiseView.cpp.o: ../src/NoiseView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/noise.dir/src/NoiseView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/noise.dir/src/NoiseView.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/noise.dir/src/NoiseView.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/NoiseView.cpp
 
 CMakeFiles/noise.dir/src/NoiseView.cpp.i: cmake_force
@@ -83,7 +179,7 @@ CMakeFiles/noise.dir/src/NoiseView.cpp.o.provides.build: CMakeFiles/noise.dir/sr
 
 CMakeFiles/noise.dir/src/Window.cpp.o: CMakeFiles/noise.dir/flags.make
 CMakeFiles/noise.dir/src/Window.cpp.o: ../src/Window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/noise.dir/src/Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/noise.dir/src/Window.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/noise.dir/src/Window.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/Window.cpp
 
 CMakeFiles/noise.dir/src/Window.cpp.i: cmake_force
@@ -105,23 +201,57 @@ CMakeFiles/noise.dir/src/Window.cpp.o.provides: CMakeFiles/noise.dir/src/Window.
 CMakeFiles/noise.dir/src/Window.cpp.o.provides.build: CMakeFiles/noise.dir/src/Window.cpp.o
 
 
+CMakeFiles/noise.dir/src/XMLFunctions.cpp.o: CMakeFiles/noise.dir/flags.make
+CMakeFiles/noise.dir/src/XMLFunctions.cpp.o: ../src/XMLFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/noise.dir/src/XMLFunctions.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/noise.dir/src/XMLFunctions.cpp.o -c /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/XMLFunctions.cpp
+
+CMakeFiles/noise.dir/src/XMLFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/noise.dir/src/XMLFunctions.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/XMLFunctions.cpp > CMakeFiles/noise.dir/src/XMLFunctions.cpp.i
+
+CMakeFiles/noise.dir/src/XMLFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/noise.dir/src/XMLFunctions.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/src/XMLFunctions.cpp -o CMakeFiles/noise.dir/src/XMLFunctions.cpp.s
+
+CMakeFiles/noise.dir/src/XMLFunctions.cpp.o.requires:
+
+.PHONY : CMakeFiles/noise.dir/src/XMLFunctions.cpp.o.requires
+
+CMakeFiles/noise.dir/src/XMLFunctions.cpp.o.provides: CMakeFiles/noise.dir/src/XMLFunctions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/noise.dir/build.make CMakeFiles/noise.dir/src/XMLFunctions.cpp.o.provides.build
+.PHONY : CMakeFiles/noise.dir/src/XMLFunctions.cpp.o.provides
+
+CMakeFiles/noise.dir/src/XMLFunctions.cpp.o.provides.build: CMakeFiles/noise.dir/src/XMLFunctions.cpp.o
+
+
 # Object files for target noise
 noise_OBJECTS = \
+"CMakeFiles/noise.dir/src/CelluralSettings.cpp.o" \
+"CMakeFiles/noise.dir/src/FractalSettings.cpp.o" \
+"CMakeFiles/noise.dir/src/MainFrame.cpp.o" \
+"CMakeFiles/noise.dir/src/MainSettings.cpp.o" \
 "CMakeFiles/noise.dir/src/NoiseView.cpp.o" \
-"CMakeFiles/noise.dir/src/Window.cpp.o"
+"CMakeFiles/noise.dir/src/Window.cpp.o" \
+"CMakeFiles/noise.dir/src/XMLFunctions.cpp.o"
 
 # External object files for target noise
 noise_EXTERNAL_OBJECTS =
 
+noise.app/Contents/MacOS/noise: CMakeFiles/noise.dir/src/CelluralSettings.cpp.o
+noise.app/Contents/MacOS/noise: CMakeFiles/noise.dir/src/FractalSettings.cpp.o
+noise.app/Contents/MacOS/noise: CMakeFiles/noise.dir/src/MainFrame.cpp.o
+noise.app/Contents/MacOS/noise: CMakeFiles/noise.dir/src/MainSettings.cpp.o
 noise.app/Contents/MacOS/noise: CMakeFiles/noise.dir/src/NoiseView.cpp.o
 noise.app/Contents/MacOS/noise: CMakeFiles/noise.dir/src/Window.cpp.o
+noise.app/Contents/MacOS/noise: CMakeFiles/noise.dir/src/XMLFunctions.cpp.o
 noise.app/Contents/MacOS/noise: CMakeFiles/noise.dir/build.make
 noise.app/Contents/MacOS/noise: 3dparty/FastNoise/libFastNoise.a
 noise.app/Contents/MacOS/noise: 3dparty/tinyxml2/libtinyxml2.a
 noise.app/Contents/MacOS/noise: /usr/local/lib/libwx_osx_cocoau_core-3.1.a
 noise.app/Contents/MacOS/noise: /usr/local/lib/libwx_baseu-3.1.a
 noise.app/Contents/MacOS/noise: CMakeFiles/noise.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable noise.app/Contents/MacOS/noise"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/noise_kurs/cmake_build_debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable noise.app/Contents/MacOS/noise"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/noise.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,8 +259,13 @@ CMakeFiles/noise.dir/build: noise.app/Contents/MacOS/noise
 
 .PHONY : CMakeFiles/noise.dir/build
 
+CMakeFiles/noise.dir/requires: CMakeFiles/noise.dir/src/CelluralSettings.cpp.o.requires
+CMakeFiles/noise.dir/requires: CMakeFiles/noise.dir/src/FractalSettings.cpp.o.requires
+CMakeFiles/noise.dir/requires: CMakeFiles/noise.dir/src/MainFrame.cpp.o.requires
+CMakeFiles/noise.dir/requires: CMakeFiles/noise.dir/src/MainSettings.cpp.o.requires
 CMakeFiles/noise.dir/requires: CMakeFiles/noise.dir/src/NoiseView.cpp.o.requires
 CMakeFiles/noise.dir/requires: CMakeFiles/noise.dir/src/Window.cpp.o.requires
+CMakeFiles/noise.dir/requires: CMakeFiles/noise.dir/src/XMLFunctions.cpp.o.requires
 
 .PHONY : CMakeFiles/noise.dir/requires
 

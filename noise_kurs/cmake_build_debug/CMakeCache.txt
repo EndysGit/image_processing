@@ -194,12 +194,6 @@ noise_SOURCE_DIR:STATIC=/Volumes/Date/ProgrammingProjects/cppFolder/image_proc/n
 //Dependencies for target
 tinyxml2_LIB_DEPENDS:STATIC=
 
-//Dependencies for target
-wxWidgetsBase_LIB_DEPENDS:STATIC=
-
-//Dependencies for target
-wxWidgetsCore_LIB_DEPENDS:STATIC=
-
 //Location of wxWidgets library configuration provider binary (wx-config).
 wxWidgets_CONFIG_EXECUTABLE:FILEPATH=/usr/local/bin/wx-config
 
